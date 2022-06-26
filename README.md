@@ -44,6 +44,7 @@ standard protocols and methods.
 - Multi-Cloud: using more than 1 public cloud in one deployment.
 - Hybrid Cloud: using public and private clouds in one environment
   - This is **NOT** using Public Cloud and Legacy on-premises hardware.
+  - Hybrid environment vs hybrid cloud
 
 ### 1.1.2. Cloud Service Models
 
