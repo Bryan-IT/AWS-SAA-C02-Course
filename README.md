@@ -826,6 +826,19 @@ Can scale quickly and beyond.
 You can use a role in the partner account and use that to upload objects
 to AWS resources.
 
+### Service Linked Roles and PassRoles
+
+Service Linked Roles are predefined in the service and include all the permission that the service requires to call another aws services on your behalf. Linked service also defines how you create, modify and delete a service-linked role. 
+
+Allows bob to pass an existing role into an aws service that was already created by the sercurity team
+
+Example
+By default cloudformation uses the permissions of your identity to interact with aws which means you need both the permissions to create a stack in cloudformation and also permission to create the resource that the stack creates.
+
+Security may have a role that exceeds the permissions that Bob directly has. So by using a PassRole, he can pass the security teams role in order to create resources in aws. 
+
+Passrole gives give yo uthe ability to implemnent role seperation
+
 ### 1.3.6. AWS Organizations
 
 Without an organization, each AWS account needs it's own set of IAM users
