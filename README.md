@@ -739,6 +739,11 @@ A bucket can give access to one or more users or one or more roles.
 An S3 Resource cannot grant access to a group, it is not an identity.
 Groups are used to allow permissions to be assigned to IAM users.
 
+1) Create group called Developers
+2) Add an IAM user to this group
+3) Add a managed policy to Devloper Group
+4) Now IAM user should have access granted from managed policy
+
 ### 1.3.4. IAM Roles
 
 A single thing that uses an identity is an IAM User.
